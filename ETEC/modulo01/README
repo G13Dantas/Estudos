@@ -36,7 +36,6 @@ public class Principal(nome do arquivo .java) {
 
 - Criação de objeto Scanner para entrada de dados:
     - Scanner scanner = new Scanner(System.in);
-
     - Exemplo de uso do Scanner:
         - byte b = scanner.nextByte(); // Lê um número do tipo byte (-128 a 127)
         - short s = scanner.nextShort(); // Lê um número do tipo short (-32768 a 32767)
