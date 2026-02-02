@@ -1,48 +1,48 @@
 Este espaço é destinado para todas as linguagens que foram aprendidas na ETEC Módulo 01
 
+- JAVA -
+
 AULA 05 - Lógica de programação aplicada em Java - Comandos de entrada e saída de dados
 
-Estrutura de um programa em java:
+- Estrutura de um programa em java:
+    public class Principal(nome do arquivo .java) {
 
-public class Principal(nome do arquivo .java) {
-
-    public static void main(String[] args) {
-        //Aqui ficará a estrutura principal do programa
+        public static void main(String[] args) {
+            //Aqui ficará a estrutura principal do programa
+        }
     }
 
-}
-
 - Comando e saída de dados:
-  - System.out.print("Mensagem"); // Imprime a mensagem sem pular linha
-  - System.out.println("Mensagem"); // Imprime a mensagem e pula para a próxima linha
-  - System.out.printf("Formato", variáveis); // Imprime a mensagem formatada
+  System.out.print("Mensagem"); // Imprime a mensagem sem pular linha
+  System.out.println("Mensagem"); // Imprime a mensagem e pula para a próxima linha
+  System.out.printf("Formato", variáveis); // Imprime a mensagem formatada
 
 - Tipos de variáveis:
-    - int: números inteiros, positivos e negativos
-    - double: números com casas decimais
-    - char: caractere único
-    - String: cadeia de caracteres, ou seja, textos. O unico tipo que inicia com letra maiuscula
-    - boolean: valores verdadeiro ou falso
+    int: números inteiros, positivos e negativos
+    double: números com casas decimais
+    char: caractere único
+    String: cadeia de caracteres, ou seja, textos. O unico tipo que inicia com letra maiuscula
+    boolean: valores verdadeiro ou falso
 
 - Nomeação de variaveis:
-    - Deve iniciar com letra minúscula
-    - Pode conter letras, números e o caractere _
-    - Não pode conter espaços, acentuação ou caracteres especiais
-    - Utilizar a notação camelCase para nomes compostos (exemplo: nomeCompleto)
+    Deve iniciar com letra minúscula
+    Pode conter letras, números e o caractere _
+    Não pode conter espaços, acentuação ou caracteres especiais
+    Utilizar a notação camelCase para nomes compostos (exemplo: nomeCompleto)
 
 - Importação de bibliotecas:
-    - import java.util.Scanner; // Comando para importar a biblioteca Scanner / Biblioteca para entrada de dados pelo usuário
-    - import java.util.Random; // Comando para importar a biblioteca Random / Biblioteca para geração de números aleatórios
+    import java.util.Scanner; // Comando para importar a biblioteca Scanner / Biblioteca para entrada de dados pelo usuário
+    import java.util.Random; // Comando para importar a biblioteca Random / Biblioteca para geração de números aleatórios
 
 - Criação de objeto Scanner para entrada de dados:
-    - Scanner scanner = new Scanner(System.in);
-    - Exemplo de uso do Scanner:
-        - byte b = scanner.nextByte(); // Lê um número do tipo byte (-128 a 127)
-        - short s = scanner.nextShort(); // Lê um número do tipo short (-32768 a 32767)
-        - int numero = scanner.nextInt(); // Lê um número inteiro (-2147483648 a 2147483647.)
-        - long l = scanner.nextLong(); // Lê um número do tipo long (9223372036854775808 a 9223372036854775807)
-        - float f = scanner.nextFloat(); // Lê um número do tipo float (-10^38 a 10^38)
-        - double decimal = scanner.nextDouble(); // Lê um número decimal (-10^308 a 10^308)
-        - char caractere = scanner.next().charAt(0); // Lê um único caractere (Um único caractere (letra), entre apóstrofos Exemplo: ‘a’.)
-        - String texto = scanner.nextLine(); // Lê uma linha de texto (Mais de um caractere, entre aspas. Exemplo: “Técnico em Informática”.)
-        - boolean bool = scanner.nextBoolean(); // Lê um valor booleano (true/false)
+    Scanner scanner = new Scanner(System.in);
+    Exemplo de uso do Scanner:
+        byte b = scanner.nextByte(); // Lê um número do tipo byte (-128 a 127)
+        short s = scanner.nextShort(); // Lê um número do tipo short (-32768 a 32767)
+        int numero = scanner.nextInt(); // Lê um número inteiro (-2147483648 a 2147483647.)
+        long l = scanner.nextLong(); // Lê um número do tipo long (9223372036854775808 a 9223372036854775807)
+        float f = scanner.nextFloat(); // Lê um número do tipo float (-10^38 a 10^38)
+        double decimal = scanner.nextDouble(); // Lê um número decimal (-10^308 a 10^308)
+        char caractere = scanner.next().charAt(0); // Lê um único caractere (Um único caractere (letra), entre apóstrofos Exemplo: ‘a’.)
+        String texto = scanner.nextLine(); // Lê uma linha de texto (Mais de um caractere, entre aspas. Exemplo: “Técnico em Informática”.)
+        boolean bool = scanner.nextBoolean(); // Lê um valor booleano (true/false)
