@@ -26,7 +26,9 @@ AULA 05 - Lógica de programação aplicada em Java - Comandos de entrada e saí
 
 - Nomeação de variaveis:
     Deve iniciar com letra minúscula
+
     Pode conter letras, números e o caractere _
+    
     Não pode conter espaços, acentuação ou caracteres especiais
     Utilizar a notação camelCase para nomes compostos (exemplo: nomeCompleto)
 
@@ -35,7 +37,9 @@ AULA 05 - Lógica de programação aplicada em Java - Comandos de entrada e saí
     import java.util.Random; // Comando para importar a biblioteca Random / Biblioteca para geração de números aleatórios
 
 - Criação de objeto Scanner para entrada de dados:
+
     Scanner scanner = new Scanner(System.in);
+
     Exemplo de uso do Scanner:
         byte b = scanner.nextByte(); // Lê um número do tipo byte (-128 a 127)
         short s = scanner.nextShort(); // Lê um número do tipo short (-32768 a 32767)
